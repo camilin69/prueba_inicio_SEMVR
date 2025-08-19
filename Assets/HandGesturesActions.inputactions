@@ -1,0 +1,35 @@
+{
+    "version": 1,
+    "name": "HandGesturesActions",
+    "maps": [
+        {
+            "name": "HandGestures",
+            "id": "d2ed1b6c-bed8-4735-8776-46624b4383ba",
+            "actions": [
+                {
+                    "name": "ThumbsUp",
+                    "type": "Button",
+                    "id": "f8f6ad41-2f4a-4af0-ba7b-0a998fb7af74",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "c5940884-a1d8-4236-82fc-303bff7bd67c",
+                    "path": "t",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ThumbsUp",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
