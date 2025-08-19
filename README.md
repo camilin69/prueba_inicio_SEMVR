@@ -1,5 +1,5 @@
 ## 📌 Descripción General  
-Este script controla la animación de una mano virtual en Unity, permitiendo cerrar el puño con los pulgares arriba y abrirla mediante teclas. Maneja huesos individuales de los dedos con rotaciones personalizadas y un sistema de temporización para controlar los estados de la animación.
+Este proyecto consiste en controlar la animación de una mano virtual en Unity, permitiendo cerrar el puño con los pulgares arriba y abrirla mediante teclas. Maneja huesos individuales de los dedos con rotaciones personalizadas y un sistema de temporización para controlar los estados de la animación.
 
 ---
 
@@ -46,4 +46,14 @@ El método utilizado para el manejo de los tiempos entre el reposo y las animaci
 
     * Independiente del framerate: Usa tiempo real, no frames
 ---
+
+## 📈 Posibles mejoras técnicas
+
+- Gestión de memoria ineficiente: Uso de Dictionary para almacenar transformaciones que crece indefinidamente y causa garbage collection.
+- Validación de NULL Reference: Falta de validación robusta causando crashes en runtime.
+- Eliminación de Búsquedas en Dictionary:  60+ búsquedas en Dictionary por frame (O(n) complexity).
+- Sistema de Input ineficiente: Input.GetKeyDown() llamado cada frame innecesariamente.
+- Sistema de estados robusto.
+- Sistema de animación modular.
+- Manejo de errores en corrutinas.
 
