@@ -3,7 +3,7 @@ Este script controla la animación de una mano virtual en Unity, permitiendo cer
 
 ---
 
-## Librerías Utilizadas
+## 📖 Librerías Utilizadas
 - UnityEngine: Para acceso a componentes de Unity (Transform, Renderer, Corrutinas)
 
 - System.Collections: Para usar corrutinas (IEnumerator)
