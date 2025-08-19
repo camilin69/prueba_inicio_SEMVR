@@ -1,5 +1,5 @@
 ## 📌 Descripción General  
-Este script controla la animación de una mano virtual en Unity, permitiendo cerrar el puño con los pulgares arriba y abrirla mediante teclas. Maneja huesos individuales de los dedos con rotaciones personalizadas y un sistema de temporización para controlar los estados de la animación.
+Este proyecto consiste en controlar la animación de una mano virtual en Unity, permitiendo cerrar el puño con los pulgares arriba y abrirla mediante teclas. Maneja huesos individuales de los dedos con rotaciones personalizadas y un sistema de temporización para controlar los estados de la animación.
 
 ---
 
